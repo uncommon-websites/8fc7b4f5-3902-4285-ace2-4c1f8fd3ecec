@@ -417,9 +417,9 @@
 
                 <!-- Stat 2 -->
                 <div class="bg-white p-12 rounded-3xl border border-gray-200">
-                    <div class="text-6xl font-bold text-gray-900 mb-4">Q1 2025</div>
-                    <div class="text-lg text-gray-600 mb-2">Current cohort closing March 15</div>
-                    <div class="text-sm text-gray-500">47 remaining seats across government and enterprise tracks</div>
+                    <div class="text-6xl font-bold text-gray-900 mb-4">Q1 2026</div>
+                    <div class="text-lg text-gray-600 mb-2">Current cohort closing soon</div>
+                    <div class="text-sm text-gray-500">Limited availability across government and enterprise tracks</div>
                 </div>
 
                 <!-- Stat 3 -->

@@ -453,9 +453,9 @@
     <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
              <div class="text-center max-w-4xl mx-auto mb-24">
-                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Sector-specific programs for every industry</h2>
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Programs built for your sector</h2>
                 <p class="text-xl text-gray-600 leading-relaxed">
-                    Customized AI fluency training for your industry's unique workflows.
+                    Role-specific training delivering measurable results across six strategic industries.
                 </p>
             </div>
 
@@ -463,14 +463,14 @@
                 <!-- Target Sectors -->
                 <div>
                     <div class="mb-12">
-                        <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">Target Sectors</h3>
+                        <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">Strategic Sectors</h3>
                         <div class="w-16 h-1 bg-primary-500 rounded-full"></div>
                     </div>
-                    <div class="grid grid-cols-3 gap-4">
-                        {#each ['Government', 'Financial Services', 'Healthcare', 'Engineering', 'Construction', 'Technology', 'Education', 'Manufacturing', 'Consulting'] as sector}
-                            <div class="aspect-square bg-white rounded-2xl flex flex-col items-center justify-center p-6 hover:bg-primary-50 hover:scale-105 transition-all duration-300 border border-gray-100 hover:border-primary-200 cursor-pointer group">
-                                <div class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mb-3 group-hover:scale-110 transition-transform duration-300"></div>
-                                <span class="text-xs text-center text-gray-700 font-semibold leading-tight">{sector}</span>
+                    <div class="grid grid-cols-2 gap-6">
+                        {#each ['Government', 'Financial Services', 'Healthcare', 'Engineering & Construction', 'Technology', 'Education'] as sector}
+                            <div class="aspect-square bg-white rounded-2xl flex flex-col items-center justify-center p-8 hover:bg-primary-50 hover:scale-105 transition-all duration-300 border border-gray-100 hover:border-primary-200 cursor-pointer group">
+                                <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300"></div>
+                                <span class="text-sm text-center text-gray-700 font-semibold leading-tight">{sector}</span>
                             </div>
                         {/each}
                     </div>

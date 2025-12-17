@@ -237,7 +237,7 @@
                         <div class="bg-white w-full h-full rounded-[1.5rem] overflow-hidden p-2 flex flex-col">
                              <div class="h-4 w-20 bg-gray-100 rounded mx-auto mb-4 mt-2"></div>
                              <div class="flex-1 bg-gray-50 rounded-xl p-2">
-                                <div class="h-16 bg-sana-lime/20 rounded-lg mb-2"></div>
+                                <div class="h-16 bg-primary-100 rounded-lg mb-2"></div>
                                 <div class="h-16 bg-blue-50 rounded-lg mb-2"></div>
                              </div>
                         </div>
@@ -400,9 +400,9 @@
                     </ul>
                 </div>
                 <div class="h-full min-h-[500px] rounded-3xl overflow-hidden relative">
-                    <!-- Placeholder image for people collaborating -->
+                    <!-- Training session image -->
                     <div class="absolute inset-0 bg-gray-200">
-                        <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center grayscale opacity-80 hover:grayscale-0 transition-all duration-700"></div>
+                        <img src="/generated/image-professional-training-session-with-instr-1766010978458-1.webp" alt="Professional training session" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>

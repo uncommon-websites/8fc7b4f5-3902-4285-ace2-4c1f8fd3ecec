@@ -55,7 +55,7 @@
         {
             quote: "AI Fluency Company transformed our workforce from AI-curious to AI-capable in months. The productivity gains are measurable and transformative.",
             name: "Dr. Ahmed Al-Mansoori",
-            role: "Director of Digital Transformation, Abu Dhabi Government",
+            role: "Director of Digital Transformation, Government Ministry",
             avatar: "AM"
         },
         {
@@ -67,25 +67,25 @@
          {
             quote: "The partnership with NVIDIA and OpenAI practitioners gives us confidence we're learning from the frontier, not following outdated curricula.",
             name: "Mohammed Al-Rashid",
-            role: "Head of Innovation, Healthcare Authority",
+            role: "Head of Innovation, Regional Healthcare Authority",
             avatar: "MR"
         },
         {
             quote: "Every professional deserves AI fluency. This program ensures our workforce isn't left behind as AI reshapes every industry.",
             name: "Fatima Hassan",
-            role: "Chief Human Resources Officer",
+            role: "Chief Human Resources Officer, Enterprise Technology",
             avatar: "FH"
         },
         {
             quote: "The 1000x leverage principle changed how we think about productivity. AI isn't replacing us—it's amplifying our capabilities exponentially.",
             name: "David Park",
-            role: "Engineering Director",
+            role: "Engineering Director, Global South Tech Hub",
             avatar: "DP"
         },
         {
             quote: "Those who delay risk irrelevance. AI Fluency Company gave us the competitive edge before market pressures forced reactive responses.",
             name: "Layla Abdullah",
-            role: "CEO, Technology Consulting",
+            role: "CEO, Regional Technology Consulting",
             avatar: "LA"
         }
     ];
@@ -171,10 +171,10 @@
     <section class="pt-20 pb-16 px-6 text-center overflow-hidden">
         <div class="max-w-4xl mx-auto mb-12">
             <h1 class="font-serif text-6xl md:text-7xl lg:text-[5rem] leading-[1.1] mb-6 font-normal tracking-tight">
-                Transform UAE professionals into <span class="text-primary-600">AI-capable</span> workers
+                Transform professionals into <span class="text-primary-600">AI-capable</span> workers
             </h1>
             <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-                Role-specific training and workflow integration starting with Abu Dhabi government. Capturing the $4B+ Global South market through measurable 1000x productivity gains.
+                Role-specific training and workflow integration for organizations across the UAE, MENA region, and Global South. Delivering measurable 1000x productivity gains through frontier AI partnerships.
             </p>
             <button class="bg-black text-white px-8 py-3 rounded-full text-base font-medium hover:bg-gray-800 transition-colors">
                 Schedule Executive Briefing
@@ -183,79 +183,25 @@
 
         <!-- Hero Image Collage Mockup -->
         <div class="relative max-w-[1400px] mx-auto h-[400px] md:h-[600px] mt-12 select-none pointer-events-none">
-            <!-- We will build a CSS composition of screens -->
+            <!-- Product screenshots composition -->
             <div class="relative w-full h-full flex justify-center items-end">
                 
-                <!-- Left Laptop -->
-                <div class="absolute left-[-10%] bottom-0 w-[60%] md:w-[45%] z-10 transform -translate-x-10 translate-y-10">
-                     <div class="bg-gray-900 rounded-t-xl p-1 shadow-2xl border border-gray-800 aspect-[16/10] overflow-hidden">
-                        <!-- Screen Content -->
-                        <div class="bg-gray-800 w-full h-full rounded-lg relative overflow-hidden">
-                            <div class="absolute inset-0 bg-gradient-to-br from-blue-900 to-black opacity-80"></div>
-                            <div class="p-4 text-white">
-                                <div class="text-xs text-gray-400 mb-2">Space Tech</div>
-                                <div class="h-2 w-20 bg-gray-600 rounded mb-4"></div>
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div class="h-20 bg-gray-700/50 rounded"></div>
-                                    <div class="h-20 bg-gray-700/50 rounded"></div>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div>
-
-                <!-- Center Laptop (Main) -->
-                <div class="absolute bottom-0 z-20 w-[70%] md:w-[50%] transform translate-y-5">
+                <!-- Center Laptop (Main) - Training Dashboard -->
+                <div class="absolute bottom-0 z-20 w-[70%] md:w-[55%] transform translate-y-5">
                     <div class="bg-black rounded-t-2xl p-2 shadow-2xl border border-gray-800 aspect-[16/10]">
                         <div class="bg-white w-full h-full rounded-xl overflow-hidden relative">
-                            <!-- Mock UI -->
-                            <div class="flex h-full">
-                                <div class="w-1/3 bg-gray-50 p-4 border-r border-gray-100">
-                                    <div class="h-8 w-8 bg-gray-200 rounded-full mb-4"></div>
-                                    <div class="h-2 w-20 bg-gray-200 rounded mb-2"></div>
-                                    <div class="h-2 w-16 bg-gray-200 rounded mb-6"></div>
-                                    <div class="space-y-2">
-                                        <div class="h-8 w-full bg-white border border-gray-200 rounded shadow-sm"></div>
-                                        <div class="h-8 w-full bg-transparent rounded"></div>
-                                    </div>
-                                </div>
-                                <div class="w-2/3 p-4">
-                                    <div class="h-32 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                                        <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
-                                    </div>
-                                    <div class="h-4 w-3/4 bg-gray-100 rounded mb-2"></div>
-                                    <div class="h-4 w-1/2 bg-gray-100 rounded"></div>
-                                </div>
-                            </div>
+                            <img src="/generated/image-modern-ai-training-platform-dashboard-on-1766011053537-0.webp" alt="AI Training Platform Dashboard" class="w-full h-full object-cover object-top" />
                         </div>
                     </div>
                 </div>
 
-                <!-- Right Phone/Tablet -->
+                <!-- Right Phone - Mobile App -->
                 <div class="absolute right-[-5%] bottom-10 w-[25%] md:w-[15%] z-30 transform translate-x-5">
                     <div class="bg-black rounded-[2rem] p-2 shadow-2xl border border-gray-800 aspect-[9/19]">
-                        <div class="bg-white w-full h-full rounded-[1.5rem] overflow-hidden p-2 flex flex-col">
-                             <div class="h-4 w-20 bg-gray-100 rounded mx-auto mb-4 mt-2"></div>
-                             <div class="flex-1 bg-gray-50 rounded-xl p-2">
-                                <div class="h-16 bg-primary-100 rounded-lg mb-2"></div>
-                                <div class="h-16 bg-blue-50 rounded-lg mb-2"></div>
-                             </div>
+                        <div class="bg-white w-full h-full rounded-[1.5rem] overflow-hidden">
+                            <img src="/generated/image-ai-training-mobile-app-interface-showing-1766011056445-1.webp" alt="Mobile Training App" class="w-full h-full object-cover object-top" />
                         </div>
                     </div>
-                </div>
-
-                 <!-- Another Right Screen (Tablet?) -->
-                <div class="absolute right-[10%] bottom-0 w-[40%] md:w-[30%] z-10 transform translate-x-10 translate-y-10">
-                     <div class="bg-white rounded-t-xl p-1 shadow-2xl border border-gray-200 aspect-[4/3] overflow-hidden">
-                        <div class="bg-gray-50 w-full h-full rounded-lg p-3">
-                             <div class="flex gap-2 mb-3">
-                                <div class="w-1/3 h-20 bg-white shadow-sm rounded-lg"></div>
-                                <div class="w-1/3 h-20 bg-white shadow-sm rounded-lg"></div>
-                                <div class="w-1/3 h-20 bg-white shadow-sm rounded-lg"></div>
-                             </div>
-                             <div class="h-32 bg-white shadow-sm rounded-lg"></div>
-                        </div>
-                     </div>
                 </div>
 
             </div>
@@ -299,44 +245,22 @@
                             </h3>
                         </div>
                         <div class="h-[300px] bg-gray-100 relative overflow-hidden mt-4 mx-4 rounded-t-xl group-hover:translate-y-[-5px] transition-transform duration-500">
-                            <!-- Mockup Content based on type -->
+                            <!-- Product Screenshots -->
                             {#if feature.image === 'phone'}
-                                <div class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-[180px] h-[350px] bg-black rounded-[2rem] border-4 border-black shadow-xl overflow-hidden">
-                                     <div class="bg-white w-full h-full p-3 pt-8">
-                                        <div class="h-2 w-12 bg-gray-200 rounded mx-auto mb-4"></div>
-                                        <div class="space-y-2">
-                                            <div class="h-16 bg-primary-50 rounded-lg"></div>
-                                            <div class="h-16 bg-gray-50 rounded-lg"></div>
-                                        </div>
-                                     </div>
-                                </div>
+                                <img src="/generated/image-training-dashboard-showing-customized-ai-1766011058812-2.webp" alt="Role-specific training dashboard" class="w-full h-full object-cover object-top" />
                             {:else if feature.image === 'video'}
-                                <div class="absolute inset-0 p-4 flex items-end justify-center">
-                                    <div class="w-full h-[90%] bg-gray-800 rounded-t-lg shadow-lg relative overflow-hidden">
-                                        <div class="absolute inset-0 flex items-center justify-center text-white/20">
-                                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
-                                        </div>
-                                        <div class="absolute bottom-4 left-4 flex gap-2">
-                                            <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
-                                            <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="/generated/image-analytics-dashboard-displaying-productiv-1766011061183-3.webp" alt="Analytics and productivity metrics" class="w-full h-full object-cover object-top" />
                             {:else if feature.image === 'search'}
-                                 <div class="absolute bottom-[-40px] right-[-20px] w-full h-full bg-white shadow-lg rounded-tl-2xl p-6 border border-gray-100">
-                                     <div class="flex items-center gap-3 mb-4 border-b pb-4">
-                                         <div class="w-8 h-8 bg-primary-500 rounded-full"></div>
-                                         <div class="h-2 w-32 bg-gray-200 rounded"></div>
-                                     </div>
-                                     <div class="space-y-3">
-                                         <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                         <div class="h-2 w-5/6 bg-gray-100 rounded"></div>
-                                         <div class="h-2 w-4/6 bg-gray-100 rounded"></div>
-                                     </div>
-                                 </div>
+                                <img src="/generated/image-workflow-integration-interface-showing-a-1766011063517-4.webp" alt="Workflow integration interface" class="w-full h-full object-cover object-top" />
+                            {:else if feature.image === 'editor'}
+                                <img src="/generated/image-results-dashboard-showing-before-and-aft-1766011065971-5.webp" alt="Results and impact dashboard" class="w-full h-full object-cover object-top" />
+                            {:else if feature.image === 'admin'}
+                                <img src="/generated/image-professional-certification-progress-scre-1766011068348-6.webp" alt="Professional certification progress" class="w-full h-full object-cover object-top" />
+                            {:else if feature.image === 'analytics'}
+                                <img src="/generated/image-community-forum-interface-with-discussio-1766011070707-7.webp" alt="Community forum and learning" class="w-full h-full object-cover object-top" />
                             {:else}
                                 <div class="absolute inset-4 bg-white shadow-sm rounded-lg border border-gray-100 flex items-center justify-center">
-                                    <div class="text-gray-300">UI Mockup</div>
+                                    <div class="text-gray-300">Product Screenshot</div>
                                 </div>
                             {/if}
                         </div>
@@ -434,10 +358,10 @@
                     </div>
                     <div class="absolute inset-0 p-8 flex flex-col justify-between text-white">
                         <div>
-                            <h3 class="font-serif text-3xl leading-tight mb-4">Abu Dhabi Ministry achieves 3x productivity gain</h3>
+                            <h3 class="font-serif text-3xl leading-tight mb-4">Government ministry achieves 3x productivity gain</h3>
                             <div class="text-xs text-gray-300 uppercase tracking-wider">Employees: 5000+ <br/> Sector: Government</div>
                         </div>
-                        <div class="font-bold text-xl">Abu Dhabi Government</div>
+                        <div class="font-bold text-xl">Regional Government Ministry</div>
                     </div>
                 </div>
 
@@ -467,7 +391,7 @@
                             <h3 class="font-serif text-3xl leading-tight mb-4">Healthcare authority achieves 12x code productivity</h3>
                             <div class="text-xs text-gray-300 uppercase tracking-wider">Employees: 3500 <br/> Sector: Healthcare</div>
                         </div>
-                        <div class="font-bold text-xl">Healthcare Authority</div>
+                        <div class="font-bold text-xl">Regional Healthcare Authority</div>
                     </div>
                 </div>
             </div>
@@ -572,7 +496,7 @@
                     Our mission: democratize AI capability for 4B+ humans in the Global South, ensuring no one loses economic value in the AI transformation.
                 </p>
                 <p class="font-serif text-3xl md:text-4xl leading-tight">
-                    Starting with Abu Dhabi, we're positioning the region as the global leader in AI fluency. Our goal: every professional AI-capable within 3 years.
+                    From the UAE to the broader MENA region, we're positioning emerging markets as global leaders in AI fluency. Our goal: every professional AI-capable within 3 years.
                 </p>
             </div>
         </div>

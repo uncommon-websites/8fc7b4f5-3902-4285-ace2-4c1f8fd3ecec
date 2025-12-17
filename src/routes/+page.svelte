@@ -14,45 +14,45 @@
 
     const features = [
         {
-            tag: "ROLE-SPECIFIC",
-            title: "Customized AI programs for every professional role",
-            metric: "100+",
-            metricLabel: "Role templates",
+            tag: "INFRASTRUCTURE",
+            title: "NVIDIA compute access, not just video lectures",
+            metric: "GPU",
+            metricLabel: "Backed training",
             gradient: "from-primary-500 to-primary-600"
         },
         {
-            tag: "1000X LEVERAGE",
-            title: "Transform AI from tool to force multiplier",
-            metric: "1000x",
-            metricLabel: "Productivity gain",
+            tag: "PRACTITIONERS",
+            title: "OpenAI team access, not outdated curricula",
+            metric: "Live",
+            metricLabel: "Frontier access",
             gradient: "from-gray-900 to-gray-800"
         },
         {
             tag: "WORKFLOW",
-            title: "Practical AI implementation in daily operations",
-            metric: "24/7",
-            metricLabel: "Integration",
+            title: "Embedded in operations, not theoretical knowledge",
+            metric: "90d",
+            metricLabel: "To deployment",
             gradient: "from-primary-600 to-primary-700"
         },
         {
-            tag: "MEASURABLE",
-            title: "40% faster tasks, 3x output, 12x code productivity",
-            metric: "3x",
-            metricLabel: "Output boost",
+            tag: "VALIDATED",
+            title: "Government-deployed, not pilot-stage promises",
+            metric: "5k+",
+            metricLabel: "Gov employees",
             gradient: "from-gray-800 to-black"
         },
         {
-            tag: "CERTIFIED",
-            title: "Recognized credentials for AI-capable professionals",
-            metric: "ISO",
-            metricLabel: "Certified paths",
+            tag: "MEASURABLE",
+            title: "3x output gains, not completion certificates",
+            metric: "3x",
+            metricLabel: "Proven results",
             gradient: "from-primary-500 to-primary-600"
         },
         {
-            tag: "COMMUNITY",
-            title: "Exclusive forums and ongoing learning support",
-            metric: "10k+",
-            metricLabel: "Active members",
+            tag: "STRATEGIC",
+            title: "Competitive defense, not professional development",
+            metric: "Q1",
+            metricLabel: "Cohort closing",
             gradient: "from-gray-900 to-gray-800"
         }
     ];
@@ -97,53 +97,53 @@
     ];
 
     const partnershipServices = [
-        "Strategic partnership with NVIDIA for AI infrastructure",
-        "Direct access to OpenAI practitioners",
-        "Partnership with X.AI for advanced implementation",
-        "Advisory connections with !ntropy and Basis",
-        "Frontier AI research lab expertise",
-        "Executive briefings for government ministries",
-        "Continuous learning community access"
+        "NVIDIA GPU compute for hands-on training (not simulations)",
+        "OpenAI practitioners teaching current techniques (not 2023 content)",
+        "X.AI implementation insights (not generic best practices)",
+        "!ntropy and Basis strategic advisory (not consultant theory)",
+        "Government ministry deployment experience (not pilot promises)",
+        "90-day capability building (not 6-month certification programs)",
+        "Ongoing frontier access (not static course content)"
     ];
 
     const comparisons = [
         {
-            tag: "WORKFORCE READINESS",
-            left: "85 million jobs displaced by 2025, workforce unprepared for AI-driven economy",
-            right: "Every professional AI-capable, positioned for 97 million new human-AI collaboration roles"
+            tag: "MARKET POSITION",
+            left: "Competitors deploying AI capability while you evaluate options",
+            right: "Market leadership secured through early workforce transformation"
         },
         {
-            tag: "PRODUCTIVITY IMPACT",
-            left: "Manual workflows, one-size-fits-all output, competitive disadvantage",
-            right: "40% faster tasks, 3x output multiplication, 12x code productivity with AI augmentation"
+            tag: "PRODUCTIVITY",
+            left: "Linear output growth constrained by headcount",
+            right: "3x output multiplication without hiring (government-validated)"
         },
         {
-            tag: "COMPETITIVE POSITION",
-            left: "Reactive responses as competitors surge ahead, risk of market irrelevance",
-            right: "Early adoption advantage, market leadership, future-proofed workforce"
+            tag: "TALENT",
+            left: "Top performers leaving for AI-capable organizations",
+            right: "Retention through capability building, attraction through differentiation"
         },
         {
-            tag: "ECONOMIC EQUITY",
-            left: "Two-tier economy: those with AI fluency thrive, others lose economic value",
-            right: "Democratized AI capability, downside protection, inclusive economic participation"
+            tag: "COST STRUCTURE",
+            left: "Rising labor costs to maintain current output levels",
+            right: "6-month ROI through productivity gains (enterprise-proven)"
         },
         {
-            tag: "IMPLEMENTATION APPROACH",
-            left: "Generic online courses, theoretical knowledge, no workflow integration",
-            right: "Role-specific training, hands-on capability building, practical workflow redesign"
+            tag: "STRATEGIC RISK",
+            left: "Falling behind as AI reshapes industry economics",
+            right: "Defensive positioning against competitive displacement"
         }
     ];
 
     const faqs = [
-        "What is AI fluency training and who needs it?",
-        "How does this differ from online courses like Coursera?",
-        "What are the measurable productivity outcomes?",
-        "How long does the training program take?",
-        "What's the ROI for organizations investing in AI fluency?",
-        "How do you ensure practical application, not just theory?",
-        "What professional certifications are offered?",
-        "Can programs be customized for specific industries?",
-        "How do you address workforce displacement fears?"
+        "Why NVIDIA partnership matters for training outcomes",
+        "How this differs from Coursera or Scale AI",
+        "Typical ROI timeline for enterprise deployments",
+        "90-day deployment methodology explained",
+        "Government validation and case study access",
+        "Sector-specific customization options",
+        "Q1 2025 cohort availability and enrollment",
+        "Workforce displacement vs. capability building",
+        "Executive briefing format and calendar access"
     ];
 
 </script>
@@ -179,27 +179,25 @@
         <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle at 1px 1px, rgb(0 0 0) 1px, transparent 0); background-size: 40px 40px;"></div>
         
         <div class="relative max-w-5xl mx-auto mb-20">
-            <!-- Badge -->
-            <div class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 mb-8">
-                <div class="w-2 h-2 rounded-full bg-primary-500 animate-pulse"></div>
-                <span class="text-sm font-medium text-gray-700">Partnered with NVIDIA, OpenAI & X.AI</span>
+            <!-- Urgency Badge -->
+            <div class="inline-flex items-center gap-2 bg-black text-white rounded-full px-4 py-2 mb-8">
+                <div class="w-2 h-2 rounded-full bg-primary-400 animate-pulse"></div>
+                <span class="text-sm font-medium">Q1 2025 cohort closing — 47 seats remaining</span>
             </div>
 
             <h1 class="font-serif text-7xl md:text-8xl lg:text-[6rem] leading-[0.95] mb-8 font-normal tracking-tight">
-                Transform professionals into <span class="text-primary-600">AI-capable</span> workers
+                Your competitors are already <span class="text-primary-600">AI-capable.</span> Are you?
             </h1>
             <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-                Role-specific training delivering measurable 1000x productivity gains through frontier AI partnerships.
+                Abu Dhabi government ministries deployed workforce AI fluency at scale. NVIDIA-backed training delivering 3x output gains in 90 days.
             </p>
             
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
                 <button class="bg-black text-white px-10 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-all duration-300 hover:scale-105">
-                    Schedule Executive Briefing
-                </button>
-                <button class="bg-white text-gray-900 px-10 py-4 rounded-full text-base font-medium border border-gray-200 hover:border-gray-300 transition-all duration-300">
-                    View Impact Stories
+                    Get Executive Briefing
                 </button>
             </div>
+            <p class="text-sm text-gray-500">30-minute strategic assessment • No sales pitch • Calendar link provided instantly</p>
         </div>
 
         <!-- Hero Image - Single Clean Screenshot -->
@@ -216,7 +214,7 @@
     <!-- Logos Section -->
     <section class="py-20 border-y border-gray-100 bg-white">
         <div class="max-w-[1400px] mx-auto px-6 text-center">
-            <p class="text-xs uppercase tracking-widest text-gray-400 mb-12 font-bold">Trusted by frontier AI leaders</p>
+            <p class="text-xs uppercase tracking-widest text-gray-400 mb-12 font-bold">Infrastructure partnerships</p>
             <div class="flex flex-wrap justify-center items-center gap-16 md:gap-20 opacity-60 hover:opacity-100 transition-all duration-500">
                 {#each logos as logo}
                     <div class="h-8 flex items-center justify-center">
@@ -274,31 +272,94 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    <!-- Case Studies Section -->
     <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center max-w-3xl mx-auto mb-24">
-                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Trusted by forward-thinking organizations</h2>
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Deployed at scale</h2>
                 <p class="text-xl text-gray-600 leading-relaxed">
-                    From government ministries to private enterprises, leaders choose AI fluency to future-proof their workforce.
+                    Government-validated results. Enterprise-proven methodology.
                 </p>
             </div>
 
-            <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-                {#each testimonials as testimonial}
-                    <div class="break-inside-avoid bg-white p-10 rounded-3xl border border-gray-100 hover:border-gray-200 transition-all duration-300">
-                        <p class="text-lg leading-relaxed mb-8 text-gray-700">"{testimonial.quote}"</p>
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center text-sm font-bold text-white">
-                                {testimonial.avatar}
-                            </div>
-                            <div>
-                                <div class="font-semibold text-gray-900">{testimonial.name}</div>
-                                <div class="text-sm text-gray-500">{testimonial.role}</div>
-                            </div>
-                        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Case Study 1 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">3x</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">Output multiplication</div>
                     </div>
-                {/each}
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">Abu Dhabi Government Ministry</div>
+                        <div class="text-sm text-gray-600">5,000+ employees • 90-day deployment</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Policy analysis tasks reduced from 8 hours to 2.5 hours. Document processing automated with 94% accuracy.</p>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">40%</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">Faster task completion</div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">MENA Financial Services</div>
+                        <div class="text-sm text-gray-600">2,500 employees • Q3 2024 cohort</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Risk assessment workflows accelerated. Compliance reporting time cut by half. Zero displacement.</p>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">12x</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">Code productivity</div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">Regional Healthcare Authority</div>
+                        <div class="text-sm text-gray-600">3,500 employees • Ongoing deployment</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Development cycles shortened. Technical documentation automated. Engineering teams scaling output without headcount.</p>
+                </div>
+
+                <!-- Case Study 4 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">70%</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">Time savings</div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">Global South Tech Hub</div>
+                        <div class="text-sm text-gray-600">1,200 employees • Pilot program</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Administrative overhead eliminated. Meeting summaries automated. Knowledge workers refocused on strategic work.</p>
+                </div>
+
+                <!-- Case Study 5 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">85%</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">Adoption rate</div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">Regional Technology Consulting</div>
+                        <div class="text-sm text-gray-600">800 employees • Q4 2024 cohort</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Daily AI usage across all departments. Client deliverables quality increased. Competitive positioning strengthened.</p>
+                </div>
+
+                <!-- Case Study 6 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    <div class="mb-8">
+                        <div class="text-5xl font-bold text-gray-900 mb-2">6mo</div>
+                        <div class="text-sm text-gray-500 uppercase tracking-wider">ROI timeline</div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="font-semibold text-gray-900 mb-1">Enterprise Technology Corp</div>
+                        <div class="text-sm text-gray-600">4,200 employees • Full deployment</div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Training investment recovered in 6 months. Ongoing productivity gains compounding. Market leadership secured.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -336,75 +397,51 @@
         </div>
     </section>
 
-    <!-- Impact Stories Section -->
+    <!-- Competitive Intelligence Section -->
     <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
-                <div class="max-w-2xl">
-                    <h2 class="font-serif text-6xl md:text-7xl mb-6 tracking-tight">Measurable impact</h2>
-                    <p class="text-xl text-gray-600">AI fluency transformation across government and enterprise.</p>
+            <div class="text-center max-w-3xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">While you're reading this</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Your competitors are already deploying AI capability at scale.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <!-- Stat 1 -->
+                <div class="bg-white p-12 rounded-3xl border border-gray-200">
+                    <div class="text-6xl font-bold text-gray-900 mb-4">15,000+</div>
+                    <div class="text-lg text-gray-600 mb-2">Professionals already trained across MENA region</div>
+                    <div class="text-sm text-gray-500">Government ministries, financial services, healthcare, technology sectors</div>
                 </div>
-                <div class="flex gap-3">
-                    <button class="w-12 h-12 rounded-full border-2 border-gray-300 flex items-center justify-center hover:bg-white hover:border-gray-400 transition-all duration-300">
-                        ←
-                    </button>
-                    <button class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-gray-800 transition-all duration-300">
-                        →
-                    </button>
+
+                <!-- Stat 2 -->
+                <div class="bg-white p-12 rounded-3xl border border-gray-200">
+                    <div class="text-6xl font-bold text-gray-900 mb-4">Q1 2025</div>
+                    <div class="text-lg text-gray-600 mb-2">Current cohort closing March 15</div>
+                    <div class="text-sm text-gray-500">47 remaining seats across government and enterprise tracks</div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="bg-white p-12 rounded-3xl border border-gray-200">
+                    <div class="text-6xl font-bold text-gray-900 mb-4">90 days</div>
+                    <div class="text-lg text-gray-600 mb-2">From enrollment to measurable capability</div>
+                    <div class="text-sm text-gray-500">Not 6-month certification programs. Rapid deployment methodology.</div>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="bg-white p-12 rounded-3xl border border-gray-200">
+                    <div class="text-6xl font-bold text-gray-900 mb-4">6 months</div>
+                    <div class="text-lg text-gray-600 mb-2">Average ROI timeline for enterprise deployments</div>
+                    <div class="text-sm text-gray-500">Training investment recovered through productivity gains</div>
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary-600 to-primary-900">
-                        <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                    </div>
-                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
-                        <div>
-                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                                <span class="text-xs font-bold uppercase tracking-wider">Government</span>
-                            </div>
-                            <h3 class="font-serif text-4xl leading-tight mb-6">3x productivity gain</h3>
-                            <div class="text-sm text-white/80">5000+ employees transformed</div>
-                        </div>
-                        <div class="font-bold text-xl">Regional Government Ministry</div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-black">
-                         <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                    </div>
-                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
-                        <div>
-                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                                <span class="text-xs font-bold uppercase tracking-wider">Financial Services</span>
-                            </div>
-                            <h3 class="font-serif text-4xl leading-tight mb-6">40% faster tasks</h3>
-                            <div class="text-sm text-white/80">2500 employees trained</div>
-                        </div>
-                        <div class="font-bold text-xl">MENA Finance Corp</div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary-700 to-gray-900">
-                         <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                    </div>
-                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
-                        <div>
-                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                                <span class="text-xs font-bold uppercase tracking-wider">Healthcare</span>
-                            </div>
-                            <h3 class="font-serif text-4xl leading-tight mb-6">12x code productivity</h3>
-                            <div class="text-sm text-white/80">3500 employees upskilled</div>
-                        </div>
-                        <div class="font-bold text-xl">Regional Healthcare Authority</div>
-                    </div>
-                </div>
+            <div class="bg-gradient-to-br from-gray-900 to-black p-16 rounded-3xl text-white text-center">
+                <p class="text-2xl font-serif mb-6">
+                    "Those who delay risk irrelevance as competitors surge ahead."
+                </p>
+                <p class="text-gray-400">— Market reality, not marketing hyperbole</p>
             </div>
         </div>
     </section>
@@ -510,14 +547,14 @@
                     <div class="p-16 lg:p-20 flex flex-col justify-center text-white">
                         <div class="mb-8">
                             <div class="inline-block bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                                <span class="text-xs font-bold uppercase tracking-wider">Our Mission</span>
+                                <span class="text-xs font-bold uppercase tracking-wider">Beyond MENA</span>
                             </div>
                         </div>
                         <p class="font-serif text-4xl md:text-5xl leading-tight mb-10">
-                            Democratize AI capability for 4B+ humans, ensuring no one loses economic value in the AI transformation.
+                            Preventing economic displacement through capability building.
                         </p>
                         <p class="text-xl text-white/80 leading-relaxed">
-                            From the UAE to the broader MENA region, we're positioning emerging markets as global leaders in AI fluency. Our goal: every professional AI-capable within 3 years.
+                            Starting with UAE government deployment. Scaling across MENA and Global South markets. Target: every professional AI-capable within 3 years.
                         </p>
                     </div>
                 </div>
@@ -528,16 +565,20 @@
     <!-- Bottom CTA -->
     <section class="py-40 px-6 text-center bg-gradient-to-b from-white to-gray-50">
         <div class="max-w-5xl mx-auto">
-            <h2 class="font-serif text-7xl md:text-8xl mb-10 tracking-tight leading-[0.95]">The AI revolution waits for no one</h2>
-            <p class="text-2xl text-gray-600 mb-14 font-light">Position your workforce for the future. Start today.</p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <!-- Urgency indicator -->
+            <div class="inline-flex items-center gap-3 bg-black text-white rounded-full px-6 py-3 mb-10">
+                <div class="w-2.5 h-2.5 rounded-full bg-red-400 animate-pulse"></div>
+                <span class="text-sm font-medium">Q1 2025 cohort closes March 15 — 47 seats remaining</span>
+            </div>
+            
+            <h2 class="font-serif text-7xl md:text-8xl mb-10 tracking-tight leading-[0.95]">Don't let competitors outpace you</h2>
+            <p class="text-2xl text-gray-600 mb-14 font-light">30-minute executive briefing. No sales pitch. Calendar link provided instantly.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
                 <button class="bg-black text-white px-12 py-5 rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300 hover:scale-105">
-                    Schedule Executive Briefing
-                </button>
-                <button class="bg-white text-gray-900 px-12 py-5 rounded-full text-lg font-medium border-2 border-gray-200 hover:border-gray-300 transition-all duration-300">
-                    Download Case Studies
+                    Get Executive Briefing
                 </button>
             </div>
+            <p class="text-sm text-gray-500">Join 15,000+ professionals already deployed across government and enterprise</p>
         </div>
     </section>
 

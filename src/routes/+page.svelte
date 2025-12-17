@@ -14,40 +14,46 @@
 
     const features = [
         {
-            tag: "ROLE-SPECIFIC TRAINING",
+            tag: "ROLE-SPECIFIC",
             title: "Customized AI programs for every professional role",
-            image: "phone",
-            color: "bg-gray-100"
+            metric: "100+",
+            metricLabel: "Role templates",
+            gradient: "from-primary-500 to-primary-600"
         },
         {
-            tag: "1000X LEVERAGE PRINCIPLE",
+            tag: "1000X LEVERAGE",
             title: "Transform AI from tool to force multiplier",
-            image: "video",
-            color: "bg-gray-100"
+            metric: "1000x",
+            metricLabel: "Productivity gain",
+            gradient: "from-gray-900 to-gray-800"
         },
         {
-            tag: "WORKFLOW INTEGRATION",
+            tag: "WORKFLOW",
             title: "Practical AI implementation in daily operations",
-            image: "search",
-            color: "bg-gray-100"
+            metric: "24/7",
+            metricLabel: "Integration",
+            gradient: "from-primary-600 to-primary-700"
         },
         {
-            tag: "MEASURABLE IMPACT",
+            tag: "MEASURABLE",
             title: "40% faster tasks, 3x output, 12x code productivity",
-            image: "editor",
-            color: "bg-gray-100"
+            metric: "3x",
+            metricLabel: "Output boost",
+            gradient: "from-gray-800 to-black"
         },
         {
-            tag: "PROFESSIONAL CERTIFICATION",
+            tag: "CERTIFIED",
             title: "Recognized credentials for AI-capable professionals",
-            image: "admin",
-            color: "bg-gray-100"
+            metric: "ISO",
+            metricLabel: "Certified paths",
+            gradient: "from-primary-500 to-primary-600"
         },
         {
-            tag: "CONTINUOUS COMMUNITY",
+            tag: "COMMUNITY",
             title: "Exclusive forums and ongoing learning support",
-            image: "analytics",
-            color: "bg-gray-100"
+            metric: "10k+",
+            metricLabel: "Active members",
+            gradient: "from-gray-900 to-gray-800"
         }
     ];
 
@@ -144,79 +150,77 @@
 
 <div class="font-sans text-gray-900 bg-white selection:bg-primary-200 selection:text-black">
     <!-- Navbar -->
-    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
-        <div class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
-            <div class="flex items-center gap-2">
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100">
+        <div class="max-w-[1400px] mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
                 <!-- Logo Mark -->
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600">
                     <path d="M12 2C12 2 8 6 8 12C8 18 12 22 12 22C12 22 16 18 16 12C16 6 12 2 12 2Z" fill="currentColor"/>
                     <path d="M2 12C2 12 6 8 12 8C18 8 22 12 22 12C22 12 18 16 12 16C6 16 2 12 2 12Z" fill="currentColor" opacity="0.6"/>
                 </svg>
-                <span class="font-medium text-lg tracking-tight">AI Fluency Company</span>
+                <span class="font-semibold text-xl tracking-tight">AI Fluency Company</span>
             </div>
 
-            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+            <div class="hidden md:flex items-center gap-10 text-sm font-medium text-gray-600">
                 {#each navLinks as link}
-                    <a href="#" class="hover:text-black transition-colors">{link}</a>
+                    <a href="#" class="hover:text-black transition-colors duration-200">{link}</a>
                 {/each}
             </div>
 
-            <button class="bg-black text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
+            <button class="bg-black text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-gray-800 transition-all duration-300 hover:scale-105">
                 Schedule Briefing
             </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="pt-20 pb-16 px-6 text-center overflow-hidden">
-        <div class="max-w-4xl mx-auto mb-12">
-            <h1 class="font-serif text-6xl md:text-7xl lg:text-[5rem] leading-[1.1] mb-6 font-normal tracking-tight">
+    <section class="relative pt-32 pb-24 px-6 text-center overflow-hidden bg-gradient-to-b from-gray-50 to-white">
+        <!-- Subtle background pattern -->
+        <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle at 1px 1px, rgb(0 0 0) 1px, transparent 0); background-size: 40px 40px;"></div>
+        
+        <div class="relative max-w-5xl mx-auto mb-20">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 mb-8">
+                <div class="w-2 h-2 rounded-full bg-primary-500 animate-pulse"></div>
+                <span class="text-sm font-medium text-gray-700">Partnered with NVIDIA, OpenAI & X.AI</span>
+            </div>
+
+            <h1 class="font-serif text-7xl md:text-8xl lg:text-[6rem] leading-[0.95] mb-8 font-normal tracking-tight">
                 Transform professionals into <span class="text-primary-600">AI-capable</span> workers
             </h1>
-            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-                Role-specific training and workflow integration for organizations across the UAE, MENA region, and Global South. Delivering measurable 1000x productivity gains through frontier AI partnerships.
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
+                Role-specific training delivering measurable 1000x productivity gains through frontier AI partnerships.
             </p>
-            <button class="bg-black text-white px-8 py-3 rounded-full text-base font-medium hover:bg-gray-800 transition-colors">
-                Schedule Executive Briefing
-            </button>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button class="bg-black text-white px-10 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-all duration-300 hover:scale-105">
+                    Schedule Executive Briefing
+                </button>
+                <button class="bg-white text-gray-900 px-10 py-4 rounded-full text-base font-medium border border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    View Impact Stories
+                </button>
+            </div>
         </div>
 
-        <!-- Hero Image Collage Mockup -->
-        <div class="relative max-w-[1400px] mx-auto h-[400px] md:h-[600px] mt-12 select-none pointer-events-none">
-            <!-- Product screenshots composition -->
-            <div class="relative w-full h-full flex justify-center items-end">
-                
-                <!-- Center Laptop (Main) - Training Dashboard -->
-                <div class="absolute bottom-0 z-20 w-[70%] md:w-[55%] transform translate-y-5">
-                    <div class="bg-black rounded-t-2xl p-2 shadow-2xl border border-gray-800 aspect-[16/10]">
-                        <div class="bg-white w-full h-full rounded-xl overflow-hidden relative">
-                            <img src="/generated/image-modern-ai-training-platform-dashboard-on-1766011053537-0.webp" alt="AI Training Platform Dashboard" class="w-full h-full object-cover object-top" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right Phone - Mobile App -->
-                <div class="absolute right-[-5%] bottom-10 w-[25%] md:w-[15%] z-30 transform translate-x-5">
-                    <div class="bg-black rounded-[2rem] p-2 shadow-2xl border border-gray-800 aspect-[9/19]">
-                        <div class="bg-white w-full h-full rounded-[1.5rem] overflow-hidden">
-                            <img src="/generated/image-ai-training-mobile-app-interface-showing-1766011056445-1.webp" alt="Mobile Training App" class="w-full h-full object-cover object-top" />
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Hero Image - Single Clean Screenshot -->
+        <div class="relative max-w-[1200px] mx-auto mt-20">
+            <div class="relative rounded-2xl overflow-hidden border border-gray-200 bg-white p-2">
+                <img src="/generated/image-modern-ai-training-platform-dashboard-on-1766011053537-0.webp" alt="AI Training Platform Dashboard" class="w-full rounded-xl" />
             </div>
+            <!-- Floating accent elements -->
+            <div class="absolute -top-4 -right-4 w-24 h-24 bg-primary-500 rounded-full opacity-10 blur-3xl"></div>
+            <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-gray-900 rounded-full opacity-5 blur-3xl"></div>
         </div>
     </section>
 
     <!-- Logos Section -->
-    <section class="py-16 border-b border-gray-100">
+    <section class="py-20 border-y border-gray-100 bg-white">
         <div class="max-w-[1400px] mx-auto px-6 text-center">
-            <p class="text-sm text-gray-500 mb-10">Strategic partnerships with frontier AI leaders</p>
-            <div class="flex flex-wrap justify-center items-center gap-12 md:gap-16 opacity-70 hover:opacity-100 transition-all duration-500">
+            <p class="text-xs uppercase tracking-widest text-gray-400 mb-12 font-bold">Trusted by frontier AI leaders</p>
+            <div class="flex flex-wrap justify-center items-center gap-16 md:gap-20 opacity-60 hover:opacity-100 transition-all duration-500">
                 {#each logos as logo}
                     <div class="h-8 flex items-center justify-center">
-                        <!-- Placeholder for logo text/svg -->
-                        <span class="font-bold text-2xl tracking-tight">{logo.name}</span>
+                        <span class="font-bold text-2xl tracking-tight text-gray-900">{logo.name}</span>
                     </div>
                 {/each}
             </div>
@@ -224,45 +228,45 @@
     </section>
 
     <!-- Our Approach Grid -->
-    <section class="py-24 px-6 bg-gray-50">
+    <section class="py-32 px-6 bg-white">
         <div class="max-w-[1400px] mx-auto">
-            <div class="text-center max-w-3xl mx-auto mb-20">
-                <h2 class="font-serif text-5xl md:text-6xl mb-6">Our Approach</h2>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    Beyond generic online courses. We combine role-specific training with workflow integration to transform your workforce into AI-capable professionals with measurable productivity gains.
+            <div class="text-center max-w-3xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Our approach</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Beyond generic online courses. Role-specific training with measurable productivity gains.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {#each features as feature}
-                    <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-[500px]">
-                        <div class="p-8 pb-0 flex-1">
-                            <span class="inline-block bg-primary-500 text-white text-[10px] font-bold tracking-wider px-2 py-1 rounded mb-4 uppercase">
-                                {feature.tag}
-                            </span>
-                            <h3 class="font-serif text-2xl leading-tight mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {#each features as feature, i}
+                    <div class="group relative bg-white border border-gray-200 rounded-3xl p-10 hover:border-gray-300 transition-all duration-500 hover:scale-[1.02]">
+                        <!-- Gradient background on hover -->
+                        <div class="absolute inset-0 bg-gradient-to-br {feature.gradient} opacity-0 group-hover:opacity-5 rounded-3xl transition-opacity duration-500"></div>
+                        
+                        <div class="relative">
+                            <!-- Tag -->
+                            <div class="inline-flex items-center gap-2 mb-6">
+                                <div class="w-1.5 h-1.5 rounded-full bg-primary-500"></div>
+                                <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">
+                                    {feature.tag}
+                                </span>
+                            </div>
+
+                            <!-- Title -->
+                            <h3 class="font-serif text-2xl leading-tight mb-12 text-gray-900">
                                 {feature.title}
                             </h3>
-                        </div>
-                        <div class="h-[300px] bg-gray-100 relative overflow-hidden mt-4 mx-4 rounded-t-xl group-hover:translate-y-[-5px] transition-transform duration-500">
-                            <!-- Product Screenshots -->
-                            {#if feature.image === 'phone'}
-                                <img src="/generated/image-training-dashboard-showing-customized-ai-1766011058812-2.webp" alt="Role-specific training dashboard" class="w-full h-full object-cover object-top" />
-                            {:else if feature.image === 'video'}
-                                <img src="/generated/image-analytics-dashboard-displaying-productiv-1766011061183-3.webp" alt="Analytics and productivity metrics" class="w-full h-full object-cover object-top" />
-                            {:else if feature.image === 'search'}
-                                <img src="/generated/image-workflow-integration-interface-showing-a-1766011063517-4.webp" alt="Workflow integration interface" class="w-full h-full object-cover object-top" />
-                            {:else if feature.image === 'editor'}
-                                <img src="/generated/image-results-dashboard-showing-before-and-aft-1766011065971-5.webp" alt="Results and impact dashboard" class="w-full h-full object-cover object-top" />
-                            {:else if feature.image === 'admin'}
-                                <img src="/generated/image-professional-certification-progress-scre-1766011068348-6.webp" alt="Professional certification progress" class="w-full h-full object-cover object-top" />
-                            {:else if feature.image === 'analytics'}
-                                <img src="/generated/image-community-forum-interface-with-discussio-1766011070707-7.webp" alt="Community forum and learning" class="w-full h-full object-cover object-top" />
-                            {:else}
-                                <div class="absolute inset-4 bg-white shadow-sm rounded-lg border border-gray-100 flex items-center justify-center">
-                                    <div class="text-gray-300">Product Screenshot</div>
+
+                            <!-- Metric Display -->
+                            <div class="mt-auto pt-8 border-t border-gray-100">
+                                <div class="flex items-end justify-between">
+                                    <div>
+                                        <div class="text-4xl font-bold text-gray-900 mb-1">{feature.metric}</div>
+                                        <div class="text-sm text-gray-500">{feature.metricLabel}</div>
+                                    </div>
+                                    <div class="w-12 h-12 rounded-full bg-gradient-to-br {feature.gradient} opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
                                 </div>
-                            {/if}
+                            </div>
                         </div>
                     </div>
                 {/each}
@@ -271,25 +275,25 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-24 px-6 bg-white">
+    <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
-            <div class="text-center max-w-3xl mx-auto mb-20">
-                <h2 class="font-serif text-5xl md:text-6xl mb-6">Trusted by forward-thinking <br/> organizations</h2>
-                <p class="text-lg text-gray-600 leading-relaxed mb-10">
-                    From government ministries to private enterprises, leaders choose AI fluency <br/> to future-proof their workforce and gain competitive advantage.
+            <div class="text-center max-w-3xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Trusted by forward-thinking organizations</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    From government ministries to private enterprises, leaders choose AI fluency to future-proof their workforce.
                 </p>
             </div>
 
-            <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+            <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
                 {#each testimonials as testimonial}
-                    <div class="break-inside-avoid bg-gray-50 p-8 rounded-2xl">
-                        <p class="text-lg leading-relaxed mb-6">"{testimonial.quote}"</p>
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-sm font-bold text-gray-600">
+                    <div class="break-inside-avoid bg-white p-10 rounded-3xl border border-gray-100 hover:border-gray-200 transition-all duration-300">
+                        <p class="text-lg leading-relaxed mb-8 text-gray-700">"{testimonial.quote}"</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center text-sm font-bold text-white">
                                 {testimonial.avatar}
                             </div>
                             <div>
-                                <div class="font-medium">{testimonial.name}</div>
+                                <div class="font-semibold text-gray-900">{testimonial.name}</div>
                                 <div class="text-sm text-gray-500">{testimonial.role}</div>
                             </div>
                         </div>
@@ -300,31 +304,30 @@
     </section>
 
     <!-- Partnership Section -->
-    <section class="py-24 px-6 bg-white border-t border-gray-100">
+    <section class="py-32 px-6 bg-white">
         <div class="max-w-[1400px] mx-auto">
-             <div class="text-center max-w-3xl mx-auto mb-20">
-                <h2 class="font-serif text-5xl md:text-6xl mb-6">Strategic partnerships <br/> with frontier AI leaders</h2>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    Our partnerships with NVIDIA, OpenAI, and X.AI ensure you're learning <br/> from the cutting edge, not following outdated curricula.
+             <div class="text-center max-w-3xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Strategic partnerships with frontier AI leaders</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Learning from the cutting edge, not following outdated curricula.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="bg-gray-50 p-12 rounded-3xl h-full">
-                    <h3 class="font-serif text-2xl mb-8">Partnership ecosystem</h3>
-                    <ul class="space-y-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="bg-gradient-to-br from-gray-50 to-white border border-gray-100 p-16 rounded-3xl h-full">
+                    <h3 class="font-serif text-3xl mb-12 text-gray-900">Partnership ecosystem</h3>
+                    <ul class="space-y-6">
                         {#each partnershipServices as service}
-                            <li class="flex items-center gap-3">
-                                <div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center shrink-0">
-                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <li class="flex items-start gap-4 group">
+                                <div class="w-6 h-6 rounded-full bg-primary-500 flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                                 </div>
-                                <span class="text-gray-700">{service}</span>
+                                <span class="text-gray-700 text-lg leading-relaxed">{service}</span>
                             </li>
                         {/each}
                     </ul>
                 </div>
-                <div class="h-full min-h-[500px] rounded-3xl overflow-hidden relative">
-                    <!-- Training session image -->
+                <div class="h-full min-h-[600px] rounded-3xl overflow-hidden relative border border-gray-100">
                     <div class="absolute inset-0 bg-gray-200">
                         <img src="/generated/image-professional-training-session-with-instr-1766010978458-1.webp" alt="Professional training session" class="w-full h-full object-cover" />
                     </div>
@@ -334,62 +337,70 @@
     </section>
 
     <!-- Impact Stories Section -->
-    <section class="py-24 px-6 bg-white">
+    <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
-            <div class="flex justify-between items-end mb-12">
-                <p class="text-lg text-gray-600 max-w-xl">AI fluency transformation across government and enterprise. See the measurable impact.</p>
-                <div class="flex gap-2">
-                    <button class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-gray-50">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
+                <div class="max-w-2xl">
+                    <h2 class="font-serif text-6xl md:text-7xl mb-6 tracking-tight">Measurable impact</h2>
+                    <p class="text-xl text-gray-600">AI fluency transformation across government and enterprise.</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="w-12 h-12 rounded-full border-2 border-gray-300 flex items-center justify-center hover:bg-white hover:border-gray-400 transition-all duration-300">
                         ←
                     </button>
-                    <button class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center hover:bg-gray-800">
+                    <button class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:bg-gray-800 transition-all duration-300">
                         →
                     </button>
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
-                <div class="aspect-[4/5] relative rounded-2xl overflow-hidden group cursor-pointer">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary-900 to-gray-900">
-                        <!-- Mock Background Image -->
-                        <div class="absolute inset-0 opacity-50 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay opacity-30"></div>
+                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-br from-primary-600 to-primary-900">
+                        <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     </div>
-                    <div class="absolute inset-0 p-8 flex flex-col justify-between text-white">
+                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
                         <div>
-                            <h3 class="font-serif text-3xl leading-tight mb-4">Government ministry achieves 3x productivity gain</h3>
-                            <div class="text-xs text-gray-300 uppercase tracking-wider">Employees: 5000+ <br/> Sector: Government</div>
+                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                                <span class="text-xs font-bold uppercase tracking-wider">Government</span>
+                            </div>
+                            <h3 class="font-serif text-4xl leading-tight mb-6">3x productivity gain</h3>
+                            <div class="text-sm text-white/80">5000+ employees transformed</div>
                         </div>
                         <div class="font-bold text-xl">Regional Government Ministry</div>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="aspect-[4/5] relative rounded-2xl overflow-hidden group cursor-pointer">
-                    <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-primary-900">
-                         <div class="absolute inset-0 opacity-50 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay opacity-30"></div>
+                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-black">
+                         <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     </div>
-                    <div class="absolute inset-0 p-8 flex flex-col justify-between text-white">
+                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
                         <div>
-                            <h3 class="font-serif text-3xl leading-tight mb-4">Financial services firm reduces task time by 40%</h3>
-                            <div class="text-xs text-gray-300 uppercase tracking-wider">Employees: 2500 <br/> Sector: Financial Services</div>
+                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                                <span class="text-xs font-bold uppercase tracking-wider">Financial Services</span>
+                            </div>
+                            <h3 class="font-serif text-4xl leading-tight mb-6">40% faster tasks</h3>
+                            <div class="text-sm text-white/80">2500 employees trained</div>
                         </div>
                         <div class="font-bold text-xl">MENA Finance Corp</div>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="aspect-[4/5] relative rounded-2xl overflow-hidden group cursor-pointer">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary-900 to-gray-900">
-                         <div class="absolute inset-0 opacity-50 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay opacity-30"></div>
+                <div class="aspect-[4/5] relative rounded-3xl overflow-hidden group cursor-pointer border border-gray-200 hover:border-gray-300 transition-all duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-br from-primary-700 to-gray-900">
+                         <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     </div>
-                    <div class="absolute inset-0 p-8 flex flex-col justify-between text-white">
+                    <div class="absolute inset-0 p-10 flex flex-col justify-between text-white">
                         <div>
-                            <h3 class="font-serif text-3xl leading-tight mb-4">Healthcare authority achieves 12x code productivity</h3>
-                            <div class="text-xs text-gray-300 uppercase tracking-wider">Employees: 3500 <br/> Sector: Healthcare</div>
+                            <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                                <span class="text-xs font-bold uppercase tracking-wider">Healthcare</span>
+                            </div>
+                            <h3 class="font-serif text-4xl leading-tight mb-6">12x code productivity</h3>
+                            <div class="text-sm text-white/80">3500 employees upskilled</div>
                         </div>
                         <div class="font-bold text-xl">Regional Healthcare Authority</div>
                     </div>
@@ -399,32 +410,37 @@
     </section>
 
     <!-- Comparison Section -->
-    <section class="py-24 px-6 bg-white">
+    <section class="py-32 px-6 bg-white">
         <div class="max-w-[1400px] mx-auto">
-             <div class="text-center max-w-3xl mx-auto mb-20">
-                <h2 class="font-serif text-5xl md:text-6xl mb-6">The urgency is real. <br/> The choice is yours.</h2>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    85 million jobs displaced by 2025. 97 million new roles requiring AI fluency. <br/> Those who delay risk irrelevance as competitors surge ahead.
+             <div class="text-center max-w-4xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">The urgency is real</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    85 million jobs displaced by 2025. 97 million new roles requiring AI fluency. Those who delay risk irrelevance.
                 </p>
             </div>
 
-            <div class="border-t border-gray-100">
-                <div class="grid grid-cols-3 py-4 text-xs text-gray-400 uppercase tracking-wider border-b border-gray-100">
+            <div class="border-t-2 border-gray-100">
+                <div class="grid grid-cols-3 py-6 text-xs text-gray-400 uppercase tracking-widest border-b border-gray-100 font-bold">
                     <div>Without AI Fluency</div>
-                    <div class="text-center">→</div>
+                    <div class="text-center"></div>
                     <div>With AI Fluency</div>
                 </div>
-                {#each comparisons as item}
-                    <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-8 py-12 border-b border-gray-100 items-center group hover:bg-gray-50 transition-colors px-4 -mx-4 rounded-xl">
-                        <div class="text-gray-500 leading-relaxed md:pr-8">
+                {#each comparisons as item, i}
+                    <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-12 py-16 border-b border-gray-100 items-center group hover:bg-gray-50 transition-all duration-300 px-8 -mx-8 rounded-2xl">
+                        <div class="text-gray-500 leading-relaxed text-lg md:pr-8">
                             {item.left}
                         </div>
                         <div class="flex justify-center">
-                            <span class="bg-primary-500 text-white text-[10px] font-bold tracking-wider px-2 py-1 rounded uppercase whitespace-nowrap">
-                                {item.tag}
-                            </span>
+                            <div class="flex flex-col items-center gap-3">
+                                <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center text-white font-bold text-xl">
+                                    →
+                                </div>
+                                <span class="text-[10px] font-bold tracking-widest text-gray-400 uppercase text-center max-w-[100px]">
+                                    {item.tag}
+                                </span>
+                            </div>
                         </div>
-                        <div class="text-black font-medium leading-relaxed md:pl-8">
+                        <div class="text-gray-900 font-semibold leading-relaxed text-lg md:pl-8">
                             {item.right}
                         </div>
                     </div>
@@ -434,28 +450,27 @@
     </section>
 
     <!-- Programs & Sectors Section -->
-    <section class="py-24 px-6 bg-white">
+    <section class="py-32 px-6 bg-gray-50">
         <div class="max-w-[1400px] mx-auto">
-             <div class="text-center max-w-3xl mx-auto mb-20">
-                <h2 class="font-serif text-5xl md:text-6xl mb-6">Sector-specific programs <br/> for every industry</h2>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    From government ministries to private enterprises, we customize <br/> AI fluency training for your industry's unique workflows.
+             <div class="text-center max-w-4xl mx-auto mb-24">
+                <h2 class="font-serif text-6xl md:text-7xl mb-8 tracking-tight">Sector-specific programs for every industry</h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Customized AI fluency training for your industry's unique workflows.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
                 <!-- Target Sectors -->
                 <div>
-                    <div class="text-center mb-8">
-                        <span class="bg-primary-500 text-white text-[10px] font-bold tracking-wider px-2 py-1 rounded uppercase">
-                            TARGET SECTORS
-                        </span>
+                    <div class="mb-12">
+                        <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">Target Sectors</h3>
+                        <div class="w-16 h-1 bg-primary-500 rounded-full"></div>
                     </div>
-                    <div class="grid grid-cols-3 gap-6">
+                    <div class="grid grid-cols-3 gap-4">
                         {#each ['Government', 'Financial Services', 'Healthcare', 'Engineering', 'Construction', 'Technology', 'Education', 'Manufacturing', 'Consulting'] as sector}
-                            <div class="aspect-square bg-gray-50 rounded-xl flex flex-col items-center justify-center p-4 hover:bg-primary-50 transition-colors border border-gray-100">
-                                <div class="w-8 h-8 bg-primary-100 rounded-full mb-2"></div>
-                                <span class="text-[11px] text-center text-gray-700 font-medium">{sector}</span>
+                            <div class="aspect-square bg-white rounded-2xl flex flex-col items-center justify-center p-6 hover:bg-primary-50 hover:scale-105 transition-all duration-300 border border-gray-100 hover:border-primary-200 cursor-pointer group">
+                                <div class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full mb-3 group-hover:scale-110 transition-transform duration-300"></div>
+                                <span class="text-xs text-center text-gray-700 font-semibold leading-tight">{sector}</span>
                             </div>
                         {/each}
                     </div>
@@ -463,16 +478,15 @@
 
                 <!-- Training Components -->
                 <div>
-                    <div class="text-center mb-8">
-                        <span class="bg-primary-500 text-white text-[10px] font-bold tracking-wider px-2 py-1 rounded uppercase">
-                            TRAINING COMPONENTS
-                        </span>
+                    <div class="mb-12">
+                        <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase mb-2">Training Components</h3>
+                        <div class="w-16 h-1 bg-gray-900 rounded-full"></div>
                     </div>
-                    <div class="grid grid-cols-3 gap-6">
+                    <div class="grid grid-cols-3 gap-4">
                          {#each ['Role-specific modules', 'Workflow integration', 'Hands-on practice', 'AI tool mastery', 'Productivity metrics', 'Certification paths', 'Community access', 'Continuous updates', 'Executive briefings'] as component}
-                            <div class="aspect-square bg-gray-50 rounded-xl flex flex-col items-center justify-center p-2 hover:bg-primary-50 transition-colors border border-gray-100">
-                                <div class="w-6 h-6 border-2 border-primary-300 rounded mb-2"></div>
-                                <span class="text-[10px] text-center text-gray-700 font-medium leading-tight">{component}</span>
+                            <div class="aspect-square bg-white rounded-2xl flex flex-col items-center justify-center p-4 hover:bg-gray-50 hover:scale-105 transition-all duration-300 border border-gray-100 hover:border-gray-300 cursor-pointer group">
+                                <div class="w-8 h-8 border-2 border-gray-900 rounded-lg mb-3 group-hover:bg-gray-900 transition-colors duration-300"></div>
+                                <span class="text-[11px] text-center text-gray-700 font-semibold leading-tight">{component}</span>
                             </div>
                         {/each}
                     </div>
@@ -482,47 +496,64 @@
     </section>
 
     <!-- Mission Section -->
-    <section class="py-24 px-6">
-        <div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
-            <div class="bg-white relative flex items-center justify-center p-12 overflow-hidden">
-                <div class="flex gap-4 transform -rotate-6 scale-90">
-                    <div class="w-64 h-80 bg-primary-600 flex items-center justify-center text-white font-bold text-3xl shadow-2xl">NVIDIA Partnership</div>
-                    <div class="w-64 h-80 bg-black flex items-center justify-center text-white font-bold text-3xl shadow-2xl z-10 -mt-12">OpenAI Practitioners</div>
-                    <div class="w-64 h-80 bg-primary-500 flex items-center justify-center text-white font-bold text-3xl shadow-2xl">X.AI Partnership</div>
+    <section class="py-32 px-6 bg-white">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="bg-gradient-to-br from-gray-900 to-black rounded-3xl overflow-hidden border border-gray-800">
+                <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[700px]">
+                    <div class="relative flex items-center justify-center p-16 overflow-hidden bg-gradient-to-br from-primary-600/10 to-transparent">
+                        <div class="flex gap-6 transform -rotate-6 scale-90">
+                            <div class="w-56 h-72 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center text-white font-bold text-2xl p-8 text-center border border-primary-400">NVIDIA Partnership</div>
+                            <div class="w-56 h-72 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center text-white font-bold text-2xl p-8 text-center z-10 -mt-12 border border-gray-700">OpenAI Practitioners</div>
+                            <div class="w-56 h-72 bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl flex items-center justify-center text-white font-bold text-2xl p-8 text-center border border-primary-500">X.AI Partnership</div>
+                        </div>
+                    </div>
+                    <div class="p-16 lg:p-20 flex flex-col justify-center text-white">
+                        <div class="mb-8">
+                            <div class="inline-block bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                                <span class="text-xs font-bold uppercase tracking-wider">Our Mission</span>
+                            </div>
+                        </div>
+                        <p class="font-serif text-4xl md:text-5xl leading-tight mb-10">
+                            Democratize AI capability for 4B+ humans, ensuring no one loses economic value in the AI transformation.
+                        </p>
+                        <p class="text-xl text-white/80 leading-relaxed">
+                            From the UAE to the broader MENA region, we're positioning emerging markets as global leaders in AI fluency. Our goal: every professional AI-capable within 3 years.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="bg-primary-950 p-12 lg:p-24 flex flex-col justify-center text-white">
-                <p class="font-serif text-3xl md:text-4xl leading-tight mb-8">
-                    Our mission: democratize AI capability for 4B+ humans in the Global South, ensuring no one loses economic value in the AI transformation.
-                </p>
-                <p class="font-serif text-3xl md:text-4xl leading-tight">
-                    From the UAE to the broader MENA region, we're positioning emerging markets as global leaders in AI fluency. Our goal: every professional AI-capable within 3 years.
-                </p>
             </div>
         </div>
     </section>
 
     <!-- Bottom CTA -->
-    <section class="py-32 px-6 text-center bg-white">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="font-serif text-6xl md:text-7xl mb-6">The AI revolution <br/> waits for no one.</h2>
-            <p class="text-xl text-gray-600 mb-10">Position your workforce for the future. Start today.</p>
-            <button class="bg-black text-white px-8 py-3 rounded-full text-base font-medium hover:bg-gray-800 transition-colors">
-                Schedule Executive Briefing
-            </button>
+    <section class="py-40 px-6 text-center bg-gradient-to-b from-white to-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="font-serif text-7xl md:text-8xl mb-10 tracking-tight leading-[0.95]">The AI revolution waits for no one</h2>
+            <p class="text-2xl text-gray-600 mb-14 font-light">Position your workforce for the future. Start today.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button class="bg-black text-white px-12 py-5 rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300 hover:scale-105">
+                    Schedule Executive Briefing
+                </button>
+                <button class="bg-white text-gray-900 px-12 py-5 rounded-full text-lg font-medium border-2 border-gray-200 hover:border-gray-300 transition-all duration-300">
+                    Download Case Studies
+                </button>
+            </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-24 px-6 bg-white border-t border-gray-100">
+    <section class="py-32 px-6 bg-white">
         <div class="max-w-[1400px] mx-auto">
-            <h2 class="font-serif text-5xl mb-16">FAQ</h2>
-            <div class="space-y-4">
+            <div class="mb-20">
+                <h2 class="font-serif text-6xl md:text-7xl mb-4 tracking-tight">Frequently asked questions</h2>
+                <p class="text-xl text-gray-600">Everything you need to know about AI fluency training.</p>
+            </div>
+            <div class="space-y-2">
                 {#each faqs as faq}
-                    <div class="border-b border-gray-100 py-6 flex justify-between items-center cursor-pointer group hover:bg-gray-50 px-4 -mx-4 rounded-lg transition-colors">
-                        <span class="text-lg font-medium">{faq}</span>
-                        <div class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center group-hover:bg-gray-800 transition-colors">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    <div class="border border-gray-100 py-8 px-8 flex justify-between items-center cursor-pointer group hover:border-gray-300 hover:bg-gray-50 rounded-2xl transition-all duration-300">
+                        <span class="text-lg font-medium text-gray-900 group-hover:text-black pr-8">{faq}</span>
+                        <div class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center group-hover:bg-gray-800 group-hover:scale-110 transition-all duration-300 shrink-0">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                         </div>
                     </div>
                 {/each}
